@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5BF31B7A23FA980B0036E332 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B7923FA980B0036E332 /* main.c */; };
 		5BF31B8223FA98240036E332 /* Function.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B8123FA98240036E332 /* Function.c */; };
+		A5F51BC923FD376600D30C9D /* Combat.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BC823FD376600D30C9D /* Combat.c */; };
+		A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCB23FD379D00D30C9D /* Floor1.c */; };
+		A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCE23FD37AE00D30C9D /* Floor2.c */; };
+		A5F51BD223FD37CA00D30C9D /* Floor3.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BD123FD37CA00D30C9D /* Floor3.c */; };
+		A5F51BD523FD37E200D30C9D /* 4Floor.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BD423FD37E200D30C9D /* 4Floor.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		5BF31B7923FA980B0036E332 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5BF31B8023FA98240036E332 /* Function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
 		5BF31B8123FA98240036E332 /* Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function.c; sourceTree = "<group>"; };
+		A5F51BC723FD376600D30C9D /* Combat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combat.h; sourceTree = "<group>"; };
+		A5F51BC823FD376600D30C9D /* Combat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Combat.c; sourceTree = "<group>"; };
+		A5F51BCA23FD379D00D30C9D /* Floor1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floor1.h; sourceTree = "<group>"; };
+		A5F51BCB23FD379D00D30C9D /* Floor1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Floor1.c; sourceTree = "<group>"; };
+		A5F51BCD23FD37AE00D30C9D /* Floor2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floor2.h; sourceTree = "<group>"; };
+		A5F51BCE23FD37AE00D30C9D /* Floor2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Floor2.c; sourceTree = "<group>"; };
+		A5F51BD023FD37CA00D30C9D /* Floor3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floor3.h; sourceTree = "<group>"; };
+		A5F51BD123FD37CA00D30C9D /* Floor3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Floor3.c; sourceTree = "<group>"; };
+		A5F51BD323FD37E200D30C9D /* 4Floor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 4Floor.h; sourceTree = "<group>"; };
+		A5F51BD423FD37E200D30C9D /* 4Floor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4Floor.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,16 @@
 				5BF31B7923FA980B0036E332 /* main.c */,
 				5BF31B8023FA98240036E332 /* Function.h */,
 				5BF31B8123FA98240036E332 /* Function.c */,
+				A5F51BC723FD376600D30C9D /* Combat.h */,
+				A5F51BCA23FD379D00D30C9D /* Floor1.h */,
+				A5F51BCB23FD379D00D30C9D /* Floor1.c */,
+				A5F51BCD23FD37AE00D30C9D /* Floor2.h */,
+				A5F51BCE23FD37AE00D30C9D /* Floor2.c */,
+				A5F51BD023FD37CA00D30C9D /* Floor3.h */,
+				A5F51BD123FD37CA00D30C9D /* Floor3.c */,
+				A5F51BD323FD37E200D30C9D /* 4Floor.h */,
+				A5F51BD423FD37E200D30C9D /* 4Floor.c */,
+				A5F51BC823FD376600D30C9D /* Combat.c */,
 			);
 			path = Eval;
 			sourceTree = "<group>";
@@ -124,8 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F51BD223FD37CA00D30C9D /* Floor3.c in Sources */,
+				A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */,
+				A5F51BD523FD37E200D30C9D /* 4Floor.c in Sources */,
+				A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */,
 				5BF31B7A23FA980B0036E332 /* main.c in Sources */,
 				5BF31B8223FA98240036E332 /* Function.c in Sources */,
+				A5F51BC923FD376600D30C9D /* Combat.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
