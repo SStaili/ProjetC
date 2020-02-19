@@ -7,9 +7,32 @@
 //
 
 #include <stdio.h>
+#include "Function.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void)
+{
+    switch (AffichagemMenu())
+    {
+        case 1:
+            printf("Vous avez choisis de Créer un Nouveau Jeux\n");
+            break;
+        case 2:
+            printf("Vous avez choisis de charger une ancienne partie\n");
+            break;
+        case 3:
+            printf("Vous avez choisis About\n");
+            break;
+        case 4:
+            printf("Vous quitter le jeux\n");
+            break;
+            
+        default:
+            printf("Mauvais Choix\n");
+            break;
+    }
+    
+   
     return 0;
 }
+
+

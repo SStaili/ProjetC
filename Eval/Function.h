@@ -11,4 +11,8 @@
 
 #include <stdio.h>
 
+int AffichagemMenu(void);
+
+void Etage1(int*tab, int tailleTableau);
+
 #endif /* Function_h */
