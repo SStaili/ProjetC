@@ -28,10 +28,8 @@ int Stat(void)
     Batterie = 5;
     Resistance = 5;
     Ergonomie = 5;
-    
-    
-    
-    
-    
-    
+    return Puissance;
+    return Batterie;
+    return Resistance;
+    return Ergonomie;
 }
