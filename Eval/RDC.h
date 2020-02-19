@@ -1,15 +1,14 @@
 //
-//  Floor1.h
+//  RDC.h
 //  Eval
 //
 //  Created by Jean-Baptiste Salaun on 19/02/2020.
 //  Copyright © 2020 Chloé Merck. All rights reserved.
 //
 
-#ifndef Floor1_h
-#define Floor1_h
+#ifndef RDC_h
+#define RDC_h
 
 #include <stdio.h>
 
-
-#endif /* Floor1_h */
+#endif /* RDC_h */

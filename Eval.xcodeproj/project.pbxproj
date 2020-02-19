@@ -14,6 +14,7 @@
 		A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCE23FD37AE00D30C9D /* Floor2.c */; };
 		A5F51BD223FD37CA00D30C9D /* Floor3.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BD123FD37CA00D30C9D /* Floor3.c */; };
 		A5F51BD523FD37E200D30C9D /* 4Floor.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BD423FD37E200D30C9D /* 4Floor.c */; };
+		A5F51BD823FD3A2600D30C9D /* RDC.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BD723FD3A2600D30C9D /* RDC.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		A5F51BD123FD37CA00D30C9D /* Floor3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Floor3.c; sourceTree = "<group>"; };
 		A5F51BD323FD37E200D30C9D /* 4Floor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 4Floor.h; sourceTree = "<group>"; };
 		A5F51BD423FD37E200D30C9D /* 4Floor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4Floor.c; sourceTree = "<group>"; };
+		A5F51BD623FD3A2600D30C9D /* RDC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDC.h; sourceTree = "<group>"; };
+		A5F51BD723FD3A2600D30C9D /* RDC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RDC.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				5BF31B8123FA98240036E332 /* Function.c */,
 				A5F51BC723FD376600D30C9D /* Combat.h */,
 				A5F51BCA23FD379D00D30C9D /* Floor1.h */,
+				A5F51BD623FD3A2600D30C9D /* RDC.h */,
+				A5F51BD723FD3A2600D30C9D /* RDC.c */,
 				A5F51BCB23FD379D00D30C9D /* Floor1.c */,
 				A5F51BCD23FD37AE00D30C9D /* Floor2.h */,
 				A5F51BCE23FD37AE00D30C9D /* Floor2.c */,
@@ -156,6 +161,7 @@
 				5BF31B7A23FA980B0036E332 /* main.c in Sources */,
 				5BF31B8223FA98240036E332 /* Function.c in Sources */,
 				A5F51BC923FD376600D30C9D /* Combat.c in Sources */,
+				A5F51BD823FD3A2600D30C9D /* RDC.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
