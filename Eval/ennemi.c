@@ -8,7 +8,7 @@
 
 #include "ennemi.h"
 
-int ennemi1()
+int ennemi1;
 {
     int vie;
     int atk;
@@ -16,7 +16,7 @@ int ennemi1()
     
     vie = 100;
     atk = 10;
-    def = 100;
+    def = 5;
     
     
     
@@ -25,3 +25,45 @@ int ennemi1()
     return atk;
 }
 
+int ennemi2;
+{
+    int vie;
+    int atk;
+    int def;
+        
+    vie = 150;
+    atk = 25;
+    def = 10;
+        
+    return vie;
+    return def;
+    return atk;
+ }
+ int ennemi3
+{
+    int vie;
+    int atk;
+    int def;
+        
+    vie = 90;
+    atk = 15;
+    def = 20;
+        
+    return vie;
+    return def;
+    return atk;
+}
+int ennemi4
+{
+    int vie;
+    int atk;
+    int def;
+        
+    vie = 90;
+    atk = 15;
+    def = 20;
+        
+    return vie;
+    return def;
+    return atk;
+}
