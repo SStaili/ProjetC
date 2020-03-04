@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5BF31B7A23FA980B0036E332 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B7923FA980B0036E332 /* main.c */; };
 		5BF31B8223FA98240036E332 /* Function.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B8123FA98240036E332 /* Function.c */; };
+		A52D160D240F9CE500543898 /* ennemi.c in Sources */ = {isa = PBXBuildFile; fileRef = A52D160C240F9CE500543898 /* ennemi.c */; };
 		A5F51BC923FD376600D30C9D /* Combat.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BC823FD376600D30C9D /* Combat.c */; };
 		A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCB23FD379D00D30C9D /* Floor1.c */; };
 		A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCE23FD37AE00D30C9D /* Floor2.c */; };
@@ -33,6 +34,8 @@
 		5BF31B7923FA980B0036E332 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5BF31B8023FA98240036E332 /* Function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
 		5BF31B8123FA98240036E332 /* Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function.c; sourceTree = "<group>"; };
+		A52D160B240F9CE500543898 /* ennemi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ennemi.h; sourceTree = "<group>"; };
+		A52D160C240F9CE500543898 /* ennemi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ennemi.c; sourceTree = "<group>"; };
 		A5F51BC723FD376600D30C9D /* Combat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combat.h; sourceTree = "<group>"; };
 		A5F51BC823FD376600D30C9D /* Combat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Combat.c; sourceTree = "<group>"; };
 		A5F51BCA23FD379D00D30C9D /* Floor1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floor1.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				A5F51BD323FD37E200D30C9D /* 4Floor.h */,
 				A5F51BD423FD37E200D30C9D /* 4Floor.c */,
 				A5F51BC823FD376600D30C9D /* Combat.c */,
+				A52D160B240F9CE500543898 /* ennemi.h */,
+				A52D160C240F9CE500543898 /* ennemi.c */,
 			);
 			path = Eval;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				A5F51BD523FD37E200D30C9D /* 4Floor.c in Sources */,
 				A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */,
 				5BF31B7A23FA980B0036E332 /* main.c in Sources */,
+				A52D160D240F9CE500543898 /* ennemi.c in Sources */,
 				5BF31B8223FA98240036E332 /* Function.c in Sources */,
 				A5F51BC923FD376600D30C9D /* Combat.c in Sources */,
 			);

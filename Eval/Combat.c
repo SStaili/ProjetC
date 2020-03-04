@@ -7,3 +7,13 @@
 //
 
 #include "Combat.h"
+
+int combat(atk,def,vie)
+{
+    
+    //(vie + def) - atk = vie ennemie
+    
+        
+    
+    
+}
