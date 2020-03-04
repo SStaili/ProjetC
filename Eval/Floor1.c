@@ -9,9 +9,9 @@
 #include "Floor1.h"
 #include "ennemi.c"
 
-int gardien(void);
+int floor1ennemi(ennemi1,)
 {
     //call function ennemi1 ( atk,def,vie,)
-    printf("Bienvenue ")
+    printf("Bienvenue ");
  //combat...
 }

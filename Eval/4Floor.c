@@ -7,3 +7,11 @@
 //
 
 #include "4Floor.h"
+#include "ennemi.c"
+
+int floor4ennemi()
+{
+    //call function ennemi1 ( atk,def,vie,)
+    printf("Bienvenue ");
+ //combat...
+}

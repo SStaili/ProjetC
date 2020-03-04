@@ -30,22 +30,8 @@ int main()
             printf("Mauvais Choix\n");
             break;
             
-            return AffichagemMenu;
     }
     
-    int nom;
-    
-    if (AffichagemMenu = 1){
-        printf("choisir un nom: /n");
-        scanf(nom);
-        else if (AffichagemMenu() = 2);
-        //load savegame
-        else if (AffichagemMenu()= 3);
-        printf("prod by :");
-        else
-            //exit
-        return nom
-    }
     return 0;
 }
 

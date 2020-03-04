@@ -10,6 +10,7 @@
 		5BF31B7A23FA980B0036E332 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B7923FA980B0036E332 /* main.c */; };
 		5BF31B8223FA98240036E332 /* Function.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B8123FA98240036E332 /* Function.c */; };
 		A52D160D240F9CE500543898 /* ennemi.c in Sources */ = {isa = PBXBuildFile; fileRef = A52D160C240F9CE500543898 /* ennemi.c */; };
+		A52D1610240FA56600543898 /* Player.c in Sources */ = {isa = PBXBuildFile; fileRef = A52D160F240FA56600543898 /* Player.c */; };
 		A5F51BC923FD376600D30C9D /* Combat.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BC823FD376600D30C9D /* Combat.c */; };
 		A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCB23FD379D00D30C9D /* Floor1.c */; };
 		A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F51BCE23FD37AE00D30C9D /* Floor2.c */; };
@@ -36,6 +37,8 @@
 		5BF31B8123FA98240036E332 /* Function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Function.c; sourceTree = "<group>"; };
 		A52D160B240F9CE500543898 /* ennemi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ennemi.h; sourceTree = "<group>"; };
 		A52D160C240F9CE500543898 /* ennemi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ennemi.c; sourceTree = "<group>"; };
+		A52D160E240FA56600543898 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A52D160F240FA56600543898 /* Player.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Player.c; sourceTree = "<group>"; };
 		A5F51BC723FD376600D30C9D /* Combat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Combat.h; sourceTree = "<group>"; };
 		A5F51BC823FD376600D30C9D /* Combat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Combat.c; sourceTree = "<group>"; };
 		A5F51BCA23FD379D00D30C9D /* Floor1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floor1.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				5BF31B7923FA980B0036E332 /* main.c */,
+				A52D160E240FA56600543898 /* Player.h */,
+				A52D160F240FA56600543898 /* Player.c */,
 				5BF31B8023FA98240036E332 /* Function.h */,
 				5BF31B8123FA98240036E332 /* Function.c */,
 				A5F51BC723FD376600D30C9D /* Combat.h */,
@@ -156,6 +161,7 @@
 			files = (
 				A5F51BD223FD37CA00D30C9D /* Floor3.c in Sources */,
 				A5F51BCF23FD37AE00D30C9D /* Floor2.c in Sources */,
+				A52D1610240FA56600543898 /* Player.c in Sources */,
 				A5F51BD523FD37E200D30C9D /* 4Floor.c in Sources */,
 				A5F51BCC23FD379D00D30C9D /* Floor1.c in Sources */,
 				5BF31B7A23FA980B0036E332 /* main.c in Sources */,

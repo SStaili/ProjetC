@@ -18,8 +18,6 @@ int ennemi1;
     atk = 10;
     def = 5;
     
-    
-    
     return vie;
     return def;
     return atk;
@@ -39,7 +37,7 @@ int ennemi2;
     return def;
     return atk;
  }
- int ennemi3
+int ennemi3;
 {
     int vie;
     int atk;
