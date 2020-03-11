@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1583435807 source:c:\users\st0ner\documents\rpggit\rpggit\pp8.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+
+1583455732 
+
+1583435807 c:\users\st0ner\documents\rpggit\rpggit\player.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1583456025 source:c:\users\st0ner\documents\rpggit\rpggit\player.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"player.h"
+
+1583455732 source:c:\users\st0ner\documents\rpggit\rpggit\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+
+1583458717 source:/home/st0ner/Documents/Cours C/Ynov IDLE RPG/RPGGIT/main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+
+1583458718 /home/st0ner/Documents/Cours C/Ynov IDLE RPG/RPGGIT/player.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1583458718 source:/home/st0ner/Documents/Cours C/Ynov IDLE RPG/RPGGIT/player.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"player.h"
+
+1583855069 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\ynov idle rpg\rpggit\player.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
+1583853844 c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\ynov idle rpg\rpggit\player.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1583588088 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\ynov idle rpg\rpggit\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
+1583854801 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\ynov idle rpg\rpggit\game.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
+1583783676 c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\ynov idle rpg\rpggit\game.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+
+1583914000 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\rpggit\game.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
+1583913914 c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\rpggit\player.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1583869535 c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\rpggit\game.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+
+1583588088 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\rpggit\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
+1583875912 source:c:\users\administrateur.win-chta32iguf4\desktop\ynov idle rpg\rpggit\player.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"player.h"
+	"game.h"
+
