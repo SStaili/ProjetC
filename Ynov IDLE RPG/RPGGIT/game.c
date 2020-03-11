@@ -25,7 +25,7 @@ void playGame(Player player) //Sofiane Staili
 		else if (strcmp(prompt, "repos") == 0)
 		{
 			player.currentHP = player.maxHP;
-            player.currentMana = player.maxMana;
+            		player.currentMana = player.maxMana;
 			printf("Pret pour retourner au combat !.\n");
 		}
 		else if (strcmp(prompt, "stats") == 0)
@@ -54,14 +54,14 @@ void playGame(Player player) //Sofiane Staili
 			}
 			if (player.Y  > -40)
 				printf("\nil fait froid dehors.");
-			printf("\n");
+				printf("\n");
 		}
 		else if (strcmp(prompt, "aller est") == 0)
 		{
 			printf("tu vas a l'est. ");
 			move(&player, 1, 0);
 			if (player.X == -50)
-				printf("tu es tellement parti a l'est que tu es a l'ouest (LOL)!");
+			printf("tu es tellement parti a l'est que tu es a l'ouest (LOL)!");
 			printf("\n");
 		}
 		else if (strcmp(prompt, "aller ouest") == 0)
@@ -69,7 +69,7 @@ void playGame(Player player) //Sofiane Staili
 			printf("tu vas a l'ouest. ");
 			move(&player, -1, 0);
 			if (player.X == 50)
-				printf("tu es tellement parti a l'ouest que tu es a l'est (LOL)!");
+			printf("tu es tellement parti a l'ouest que tu es a l'est (LOL)!");
 			printf("\n");
 		}
 		else if(strcmp(prompt,"inventaire")==0) //Ajout Chloe Merck else if inventaire
@@ -97,17 +97,16 @@ void lower(char* s) //Sofiane Staili
 }
 
 //Affiche la page about
-void printAbout() //Sofiane Staili
+void printAbout()
 {
 	printf("Vous etes un eleve d'Ynov campus et vous avez oublier de rendre le dossier d'inscription\n");
 	printf("Vous vous depechez de vous rendre au campus quand soudain, une fois au portique un flash vous ebloui\n");
-    printf("Une fois la vision de retour, une plaine et rien d'autre, deplacez vous et vivez l'aventure....\n");
-    printf("....La plus basique qu'il soit...(LOL)  \n");
-    printf("....votre destin ne dependra que de ma reussite a coder ce jeu... \n");
-    printf("....Oui c'est le dieu de ce monde qui te parle allez au boulot va buter du monstre!! \n");
-    printf("....Ah! et si tu as besoin d'aide dis 'aide' BONNE CHANCE! ...*Pouf*... \n");
-    printf("Les combats sont automatique! \n");
-    printf("Projet réalisé par...\n"); //Ajout Chloe Merck
+    	printf("Une fois la vision de retour, une plaine et rien d'autre, deplacez vous et vivez l'aventure....\n");
+    	printf("....La plus basique qu'il soit...(LOL)  \n");
+    	printf("....votre destin ne dependra que de ma reussite a coder ce jeu... \n");
+   	printf("....Oui c'est le dieu de ce monde qui te parle! Allez au boulot va buter du monstre!! \n");
+    	printf("....Ah! et si tu as besoin d'aide dis 'aide' BONNE CHANCE! ...*Pouf*... \n");
+    	printf("Les combats sont automatique! Ã  vous de jouer! \n");
 }
 
 void printHelp() //Sofiane Staili
@@ -151,7 +150,7 @@ void getName(char* name, int level) //Sofiane Staili
 	fclose(nameFile);
 }
 
-//Pour les zones enneigées - |Y| > 70 //Sofiane Staili
+//Pour les zones enneigÃ©es - |Y| > 70 //Sofiane Staili
 void getSpecialName(char* name)
 {
 	int terminal = 25+rand()%5;
