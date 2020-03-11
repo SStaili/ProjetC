@@ -8,7 +8,7 @@
 
 #include "Player.h"
 
-int inventory;
+int inventory; //Jean Baptiste
 {
     bool objet1 = false;
     bool objet2 = false;
