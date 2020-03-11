@@ -8,7 +8,7 @@
 
 #include "Function.h"
 
-int AffichagemMenu(void)
+int AffichagemMenu(void) // Chloe Merck
 {
     int ChoixMenu;
     printf("MAIN MENU :\n");
@@ -24,11 +24,53 @@ int AffichagemMenu(void)
 }
 
 
-void Etage1(int*tab, int tailleTableau)
+void Etage1(int*tab, int tailleTableau) //Jean Baptiste
 {
     for (int i = 0; i < 10; i++)
     {
         tab[i] = 0;
     }
 }
+int Recherche() //Chloe Merck
+{
+    int nbr, k, r,tab[30];
+    printf("Entrer le nombre des éléments dans le tableau");
+    scanf("%d",&nbr);
+    
+    printf("Entrer les éléments du tableau: ");
+    for(k=0; k < nbr; k++){
+        scanf("%d", &tab[k]);
+    }
+    
+    printf("Entrez l'élément de recherche:");
+    scanf("%d", &r);
+    
+    
+    k = 0;
+    
+    while(k < nbr && r !=tab[k]){
+        k++;
+    }
+    
+    if (k < nbr) {
+         printf("L'élément se trouve dans la position = %d", k + 1);
+      } else {
+         printf("Elément non trouvé");
+      }
+    
+    return 0;
+}
+
+
+
+void NomPersonnage(Personnage *p) //Chloe Merck
+{
+    
+    printf("Entrez le nom de votre héros");
+    scanf("%s", p ->name);
+    
+    
+}
+
+
 
