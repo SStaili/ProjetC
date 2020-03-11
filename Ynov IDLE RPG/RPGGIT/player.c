@@ -18,17 +18,17 @@ void initialize(Player* player) //Sofiane Staili
 
 	player->chance = .015;
 	player->baseDamage = 5;
-	player->X = 24;
-	player->Y = 24;
+	player->X = 0;
+	player->Y = 0;
 
 
-    player->BouleDeFeu = 15;            //Ajout Chloe Merck
-    player->Electrocution = 20;         //Ajout Chloe Merck
+    	player->BouleDeFeu = 15;            //Ajout Chloe Merck
+    	player->Electrocution = 20;         //Ajout Chloe Merck
 	player->LancerDePierre = 25;        //Ajout Chloe Merck
 	player->Tornade = 50;               //Ajout Chloe Merck
 
 
-    player->Or = 5;     //Ajout Chloe Merck
+    	player->Or = 5;     //Ajout Chloe Merck
 
 
 	printf("\nQuel est ton nom d'Aventurier?\n\n> ");
@@ -42,7 +42,7 @@ void initialize(Player* player) //Sofiane Staili
 
 
 
-//Renvoi true si fichier bien chargé, sinon false
+//Renvoi true si fichier bien chargÃ©, sinon false
 int load(Player* player) //Sofiane Staili
 {
 	FILE* inFile;
@@ -65,12 +65,12 @@ int load(Player* player) //Sofiane Staili
 
 	fclose(inFile);
 
-	printf("%s's Sauvegarde correctement chargée!\n", player->name);
+	printf("%s's Sauvegarde correctement chargÃ©e!\n", player->name);
 	printf("\nTe revoila aventurier!, %s!\n", player->name);
 	return 1;
 }
 
-//Sauvegarde les données joueur dans file
+//Sauvegarde les donnÃ©es joueur dans file
 void save(Player player) //Sofiane Staili
 {
 	FILE* saveFile;
@@ -88,7 +88,7 @@ void save(Player player) //Sofiane Staili
 	printf("Je me rappelerais de ton aventure n'ai crainte!\n");
 }
 
-//Deplace le joueur et donne une probabilitée de combat
+//Deplace le joueur et donne une probabilitÃ©e de combat
 void move(Player* player, int X, int Y) //Sofiane Staili
 {
 	player->X += X;
@@ -156,8 +156,8 @@ void fight(Player* player, Player* enemy) //Sofiane Staili
 {
 	printf("%s\tvs\t%s\n", player->name, enemy->name);
 	printf("HP:  %d/%d\t\t%d/%d\n", player->currentHP, player->maxHP, enemy->currentHP, enemy->maxHP);
-    printf("Mana: %d/%d\n", player->currentMana, player->maxMana); //Ajout Chloe Merck Sofiane Staili
-    printf("\t\t\n");
+    	printf("Mana: %d/%d\n", player->currentMana, player->maxMana); //Ajout Chloe Merck Sofiane Staili
+    	printf("\t\t\n");
 	do
 	{
 		//Attaque du joueur
@@ -234,7 +234,7 @@ void fight(Player* player, Player* enemy) //Sofiane Staili
 
 
 
-//Si le combat est gagné, on récupere l'xp
+//Si le combat est gagnÃ©, on rÃ©cupere l'xp
 void onFightWin(Player* player, Player NPC) //Sofiane Staili
 {
 	//gain d'xp (fomrule de runescape prise sur le net
@@ -243,14 +243,14 @@ void onFightWin(Player* player, Player NPC) //Sofiane Staili
 	printf("\t\t\n");
 	player->experience += exp;
 
-	//Montée de niveau
+	//MontÃ©e de niveau
 	if (canLevelUp(player))
 	{
 		levelUp(player);
 	}
 }
 
-//Améliore les stats du joueur quand lvl up
+//AmÃ©liore les stats du joueur quand lvl up
 void levelUp(Player* player) //Sofiane Staili
 {
 	player->level++;
@@ -268,7 +268,7 @@ void levelUp(Player* player) //Sofiane Staili
 }
 
 //Verifie l'xp du joueur pour le monter de niveau.
-//inspiré du systeme de leveling de runescape (récupéré sur le net)
+//inspirÃ© du systeme de leveling de runescape (rÃ©cupÃ©rÃ© sur le net)
 int canLevelUp(Player * player) //Sofiane Staili
 {
 	double netXP = 300;
@@ -317,7 +317,7 @@ int isDead(Player player) //Sofiane Staili
 		return 0;
 }
 
-//Applique les dommages à l'ennemi
+//Applique les dommages Ã  l'ennemi
 void applyDamage(Player* player, double damage) //Sofiane Staili
 {
 	player->currentHP -= damage;
@@ -325,7 +325,7 @@ void applyDamage(Player* player, double damage) //Sofiane Staili
 		player->currentHP = 0;
 }
 
-//Permet de creer un ennemi basé sur le niveau du joueur et sur la distance qu'il a parcouru
+//Permet de creer un ennemi basÃ© sur le niveau du joueur et sur la distance qu'il a parcouru
 Player createNPC(Player player, double distance) //Sofiane Staili
 {
 	Player enemy;
