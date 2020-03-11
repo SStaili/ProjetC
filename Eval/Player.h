@@ -11,4 +11,14 @@
 
 #include <stdio.h>
 
+typedef struct Personnage Personnage; //Chloe Merck
+
+struct Personnage{
+    int pv;
+    int force;
+    int defense;
+    char name[100];
+    
+};
+
 #endif /* Player_h */
